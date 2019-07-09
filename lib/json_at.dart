@@ -37,8 +37,8 @@ Optional<dynamic> _traverse(dynamic obj, List<String> pp) {
     }
     return _traverse(obj[key], pp);
   } else if (obj is List) {
-    final ikey = int.parse(key);
-    if (ikey < 0 || ikey >= obj.length) {
+    final ikey = int.tryParse(key);
+    if (ikey == null || ikey < 0 || ikey >= obj.length) {
       return const Optional<dynamic>.absent();
     }
     return _traverse(obj[ikey], pp);
