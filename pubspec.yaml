@@ -1,0 +1,11 @@
+name: json_at
+description: Dart implementation of RFC 6901 JSON pointer
+version: 1.0.0
+author: Adamansky Anton <adamansky@softmotions.com>
+
+environment:
+  sdk: '>=2.2.0 <3.0.0'
+
+dependencies:
+  test: ^1.6.5
+  quiver: ^2.0.3
