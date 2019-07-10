@@ -4,7 +4,7 @@ import 'dart:core';
 import 'package:quiver/core.dart';
 
 /// Gets [obj] sub-property value located by RFC 6901 JSON [pointer].
-/// If type of [obj] is string it will be parsed to JSON object used to search.
+/// If type of [obj] is string it will be parsed to JSON object used for search.
 /// Returns [Optional] value holder.
 Optional<dynamic> jsonAt(dynamic obj, String pointer) {
   if (obj is String) {
