@@ -9,16 +9,12 @@ Optional<dynamic> jsonAt(dynamic obj, String pointer)
 
 ```dart
 import 'package:json_at/json_at.dart';
-const doc = {
-  'foo': {
-    'bar': {
-      'baz': [
-        {'gaz': 33}
-      ]
-    }
-  }
-};
-final v = jsonAt(doc, '/foo/bar/baz/0/gaz');
-expect(v.isPresent, isTrue);
-expect(v.value, equals(33));
+
+void main() {
+  const doc = {
+    'foo': {'bar': 'baz'}
+  };
+  final val = jsonAt(doc, '/foo/bar');
+  print(val.value);
+}
 ```
