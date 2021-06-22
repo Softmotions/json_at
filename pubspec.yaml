@@ -3,7 +3,7 @@ name: json_at
 description: >
       Dart implementation of RFC 6901 JSON pointer specification .
 
-version: 2.0.0-nullsafety.1
+version: 2.1.0-1
 
 homepage: 'https://github.com/Softmotions/json_at'
 repository: 'https://github.com/Softmotions/json_at'
@@ -13,5 +13,5 @@ environment:
   sdk: '>=2.12.0-0 <3.0.0'
 
 dependencies:
-  test: ^1.16.0-nullsafety.13
-  quiver: ^3.0.0-nullsafety.2
+  test: ^1.17.8
+  quiver: ^3.0.1
