@@ -1,4 +1,4 @@
-json_at (2.1.0-1)
+json_at (2.1.0)
   * Nullsafety released
 
 json_at (2.0.0-nullsafety.1)
