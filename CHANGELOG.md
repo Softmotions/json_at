@@ -1,3 +1,6 @@
+json_at (2.1.0-1)
+  * Nullsafety released
+
 json_at (2.0.0-nullsafety.1)
 
   * Upgraded to Dart v2.12.x
